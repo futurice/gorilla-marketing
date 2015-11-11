@@ -1,5 +1,6 @@
 .logo {
   width: 130px;
+  margin-top: -5px;
 }
 body {
   overflow-x: hidden;
@@ -9,7 +10,7 @@ body {
   color: #777;
 }
 .text-primary {
-  color: #fed136;
+  color: #349C4A;
 }
 p {
   font-size: 14px;
@@ -26,13 +27,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #fed136;
+  color: #349C4A;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #277638;
 }
 h1,
 h2,
@@ -55,8 +56,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #349C4A;
+  border-color: #349C4A;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -67,8 +68,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #277638;
+  border-color: #256e34;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -90,17 +91,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #349C4A;
+  border-color: #349C4A;
 }
 .btn-primary .badge {
-  color: #fed136;
+  color: #349C4A;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #349C4A;
+  border-color: #349C4A;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -114,8 +115,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #fec503;
-  border-color: #f6bf01;
+  background-color: #277638;
+  border-color: #256e34;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -137,11 +138,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #349C4A;
+  border-color: #349C4A;
 }
 .btn-xl .badge {
-  color: #fed136;
+  color: #349C4A;
   background-color: white;
 }
 .navbar-default {
@@ -149,28 +150,28 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #fed136;
+  color: #349C4A;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #fec503;
+  color: #277638;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #349C4A;
+  border-color: #349C4A;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #349C4A;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -181,18 +182,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #fed136;
+  color: #349C4A;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #349C4A;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #277638;
 }
 @media (min-width: 768px) {
   .navbar-default {
@@ -221,7 +222,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/futucafe.jpg');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -231,6 +232,7 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
+  text-shadow: 1px 1px #000;
 }
 header .intro-text {
   padding-top: 100px;
@@ -257,8 +259,10 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    text-transform: none;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
@@ -308,7 +312,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(52, 156, 74, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -416,7 +420,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: #349C4A;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -571,7 +575,7 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #349C4A;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
@@ -640,7 +644,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #349C4A;
 }
 .btn:focus,
 .btn:active,
@@ -719,11 +723,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #349C4A;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #349C4A;
 }
 img::selection {
   background: transparent;
@@ -732,5 +736,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #349C4A;
 }
