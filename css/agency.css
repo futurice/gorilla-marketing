@@ -2,6 +2,9 @@
   width: 130px;
   margin-top: -5px;
 }
+.culture-image {
+  width: 830px;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
