@@ -5,6 +5,14 @@
 .culture-image {
   width: 830px;
 }
+.gorilla {
+  width: 260px;
+  height: 260px;
+  background: white;
+  -moz-border-radius: 130px;
+  -webkit-border-radius: 130px;
+  border-radius: 130px;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
