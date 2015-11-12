@@ -17,6 +17,9 @@
 .culture-text {
   font-size: 18px;
 }
+.instagram-box {
+  height: 530px;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
