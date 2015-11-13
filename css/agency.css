@@ -6,12 +6,19 @@
   width: 830px;
 }
 .gorilla {
+  margin-bottom: 40px;
   width: 260px;
   height: 260px;
   background: white;
   -moz-border-radius: 130px;
   -webkit-border-radius: 130px;
   border-radius: 130px;
+}
+.culture-text {
+  font-size: 18px;
+}
+.instagram-box {
+  height: 530px;
 }
 body {
   overflow-x: hidden;
