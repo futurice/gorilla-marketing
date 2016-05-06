@@ -12,17 +12,29 @@
 }
 
 .gorilla {
-  margin-bottom: 40px;
-  width: 260px;
-  height: 260px;
-  background: white;
-  -moz-border-radius: 130px;
-  -webkit-border-radius: 130px;
-  border-radius: 130px;
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+  margin-bottom: 60px;
+  display: block;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .gorilla {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 120px;
+    right: 20px;
+    display: block;
+    z-index: 9999;
+  }
 }
 
 .culture-text {
   font-size: 18px;
+  padding-bottom: 24px;
 }
 
 .instagram-box {
@@ -141,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
         .heading-font;
         font-weight: 400;
         letter-spacing: 1px;
-        color: white;
+        color: black;
         &:hover,
         &:focus {
           color: @brand-primary;
@@ -150,6 +162,17 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
+
+  &.navbar-shrink {
+    .nav {
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+
   .navbar-nav > .active > a {
     border-radius: 0;
     color: white;
@@ -191,11 +214,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  background-image: url('../img/futucafe.jpg');
-  background-repeat: none;
+  justify-content: center;
+  display: flex;
+  min-height: 70vh;
+  background-color: #F4F0E9;
+  background-image: url('../img/smr11.png');
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  .background-cover;
+  .background-contain;
   text-align: center;
   color: white;
   text-shadow: 1px 1px #000;
@@ -221,6 +248,7 @@ header {
 
 @media (min-width: 768px) {
   header {
+    margin-top: 100px;
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
