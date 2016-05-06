@@ -185,6 +185,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.navbar-collapse {
+  .nav {
+    li {
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -211,12 +221,16 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 1.5em;
     }
   }
+
+  header {
+    min-height: 70vh;
+  }
 }
 
 header {
   justify-content: center;
   display: flex;
-  min-height: 70vh;
+  min-height: 90vh;
   background-color: #F4F0E9;
   background-image: url('../img/smr11.png');
   background-repeat: no-repeat;
